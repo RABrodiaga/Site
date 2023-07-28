@@ -1,0 +1,8 @@
+<div class="registration-cssave">
+	{{if not .IsForgot}}
+		{{render .Login}}
+	{{end}}
+	{{if .IsForgot}}
+		{{render .Restore}}
+	{{end}}
+</div>
