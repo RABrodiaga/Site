@@ -58,3 +58,7 @@ func (t *LoginForm) TemplateHandler(_ *golive.LiveComponent) string {
 	page := string(fileBytes) + `<style>` + css.Root.String() + `</style>`
 	return page
 }
+
+
+
+4234324
